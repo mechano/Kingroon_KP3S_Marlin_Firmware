@@ -63,7 +63,7 @@
 // @section info
 
 // Author info of this build printed to the host during boot and M115
-#define STRING_CONFIG_H_AUTHOR "(kubik369)" // Who made the changes.
+#define STRING_CONFIG_H_AUTHOR "Mechano" // Who made the changes.
 //#define CUSTOM_VERSION_FILE Version.h // Path from the root directory (no quotes)
 
 // @section machine
@@ -94,7 +94,7 @@
  *
  * :[2400, 9600, 19200, 38400, 57600, 115200, 250000, 500000, 1000000]
  */
-#define BAUDRATE 250000
+#define BAUDRATE 115200
 
 //#define BAUD_RATE_GCODE     // Enable G-code M575 to set the baud rate
 
@@ -691,9 +691,9 @@
     #define DEFAULT_Ki_LIST {   1.08,   1.08 }
     #define DEFAULT_Kd_LIST { 114.00, 114.00 }
   #else
-    #define DEFAULT_Kp  12.93 // GR rilevati con Pronterface sulla mia stampante
-    #define DEFAULT_Ki   0.78 // GR rilevati con Pronterface sulla mia stampante
-    #define DEFAULT_Kd  53.51 // GR rilevati con Pronterface sulla mia stampante
+    #define DEFAULT_Kp  13.50 // GR rilevati con Pronterface sulla mia stampante
+    #define DEFAULT_Ki   0.98 // GR rilevati con Pronterface sulla mia stampante
+    #define DEFAULT_Kd  46.5 // GR rilevati con Pronterface sulla mia stampante
   #endif
 #else
   #define BANG_MAX 255    // Limit hotend current while in bang-bang mode; 255=full current
@@ -781,9 +781,9 @@
 
   // 120V 250W silicone heater into 4mm borosilicate (MendelMax 1.5+)
   // from FOPDT model - kp=.39 Tp=405 Tdead=66, Tc set to 79.2, aggressive factor of .15 (vs .1, 1, 10)
-  #define DEFAULT_bedKp 100.43
-  #define DEFAULT_bedKi 15.47
-  #define DEFAULT_bedKd 434.75
+  #define DEFAULT_bedKp 114.0
+  #define DEFAULT_bedKi 21.93
+  #define DEFAULT_bedKd 395.4
 
   // FIND YOUR OWN: "M303 E-1 C8 S90" to run autotune on the bed at 90 degreesC for 8 cycles.
 #else
@@ -1817,12 +1817,12 @@
 // @section geometry
 
 // The size of the printable area
-#define X_BED_SIZE 172
-#define Y_BED_SIZE 172
+#define X_BED_SIZE 180
+#define Y_BED_SIZE 180
 
 // Travel limits (linear=mm, rotational=°) after homing, corresponding to endstop positions.
-#define X_MIN_POS -10
-#define Y_MIN_POS -7
+#define X_MIN_POS -3
+#define Y_MIN_POS 0
 #define Z_MIN_POS 0
 #define X_MAX_POS X_BED_SIZE
 #define Y_MAX_POS Y_BED_SIZE
