@@ -19,4 +19,4 @@ long file name scrolling,
 double touch select,
 300°C hotend (*) and 110°C bed.
 
-(*) HT-NTC 100K 3950 Termistor with stainless steel capsule is mandatory for accurate temperature reading over 260°C.
+(*) HT-NTC 100K 3950 Thermistor with stainless steel capsule is mandatory for accurate temperature reading over 260°C.
