@@ -3,7 +3,7 @@ A Marlin firmware for KP3S 3.0 3D printer
 
 It's for Kingroon Robin Nano v1.3 mainboard with GD32F303 chip.
 
-Based on build v2.1.2.x-bufix of 20231115
+Based on build v2.1.2.x-bufix of 20231223
 
 Main features:
 
