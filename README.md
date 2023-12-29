@@ -7,8 +7,9 @@ Based on build v2.1.2.x-bufix of 20231115
 
 Main features:
 
-No BL Touch,
-16 point manual mesh leveling,
+With and without BL Touch,
+16 points manual mesh leveling,
+25 pints automated bed leveling,
 input shaping,
 linear advance,
 power loss recovery,
@@ -17,6 +18,6 @@ runout sensor support (off by default),
 portrait screen,
 long file name scrolling,
 double touch select,
-300°C hotend (*) and 110°C bed.
+290°C and 350°C hotend (*) with 110°C bed.
 
-(*) HT-NTC 100K 3950 Thermistor with stainless steel capsule is mandatory for accurate temperature reading over 260°C.
+(*) HT-NTC 100K 3950 Thermistor with stainless steel capsule is mandatory for 350°C version.
