@@ -21,3 +21,6 @@ double touch select,
 290°C and 350°C hotend (*) with 110°C bed.
 
 (*) HT-NTC 100K B3950 Thermistor with stainless steel capsule is mandatory for 350°C version.
+
+Paypal email for donations: mr.mechano@gmail.com
+
