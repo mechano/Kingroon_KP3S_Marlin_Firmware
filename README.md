@@ -9,7 +9,7 @@ Main features:
 
 With and without BL Touch,
 16 points manual mesh leveling,
-25 pints automated bed leveling,
+16 pints automated bed leveling,
 input shaping,
 linear advance,
 power loss recovery,
